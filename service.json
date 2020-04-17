@@ -1,0 +1,24 @@
+{
+  "name": "segmentation_torax",
+  "version": "0.1.0",
+  "keywords": [
+    "segmentation",
+    "axial"
+  ],
+  "shortdesc": "DSS service segmentation",
+  "longdesc": "Given a source image and labels, perform segmentation map and labels from the source image",
+  "tags": [
+    {
+      "name": "Image",
+      "type": "MainImage",
+      "hint": "The anatomical image onto which you want to warp the segmentation",
+      "required": true
+    },
+    {
+      "name": "Source Labels",
+      "type": "OverlayImage",
+      "hint": "The segmentation of the source image",
+      "required": true
+    }
+  ]
+}    
